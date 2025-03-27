@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Triiqi",
+    "slug": "triiqi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./generated-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./generated-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000",
+      "barStyle": "light-content"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.triiqi.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./generated-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.triiqi.app"
+    },
+    "web": {
+      "favicon": "./generated-icon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "triiqi-app"
+      }
+    }
+  }
+}
